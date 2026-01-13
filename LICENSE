@@ -1,0 +1,40 @@
+Copyright (c) 2026 CyberM Technologies Inc.
+All rights reserved.
+
+HexioPlugins Repository – Public License and Legal Notice
+
+This repository contains compiler plugins used by the Hexio C2 Framework. 
+The software, scripts, and configuration files provided herein are 
+proprietary and owned by CyberM Technologies Inc. (“CyberM Technologies Inc.”).
+
+1. Ownership
+   - All content in this repository, including plugins, scripts, and 
+     configuration files, is owned exclusively by CyberM Technologies Inc.
+   - No rights, title, or interest in the Hexio C2 Framework or any of its 
+     components are granted to users except as explicitly stated herein.
+
+2. SDKs and Dependencies
+   - This repository does NOT include any Apple or Google SDKs.
+   - Users must supply their own legally obtained SDKs:
+     - ios-plugin requires a legally obtained iOS SDK from Xcode.
+     - macos-plugin requires a legally obtained macOS SDK from Xcode.
+     - android-plugin requires a legally obtained Android SDK.
+   - Redistribution of any Apple or Google SDKs via this repository is 
+     strictly prohibited.
+
+3. Usage Restrictions
+   - Plugins in this repository may only be used to build payloads for 
+     the Hexio C2 Framework.
+   - Unauthorized copying, modification, redistribution, or commercial use 
+     outside of CyberM Technologies Inc.’s licensing agreements is prohibited.
+
+4. Disclaimer of Liability
+   - CyberM Technologies Inc. provides this repository “as-is” without warranties 
+     of any kind.
+   - CyberM Technologies Inc. is not responsible for any legal consequences, 
+     damages, or losses resulting from user-supplied SDKs, improper usage, 
+     or failure to comply with third-party license agreements.
+   - Use of this repository constitutes acceptance of these terms.
+
+For sales inquiries, please contact: sales@cybermtech.com  
+For legal or licensing inquiries, please contact: legal@cybermtech.com
