@@ -14,4 +14,4 @@ Each plugin packages a platform-specific compiler toolchain into a Docker contai
 
 ## License
 
-This project is licensed under the MIT License. See [LICENSE](./LICENSE) for details.
+Copyright 2026 CyberM Technologies Inc. This project is licensed under the Apache License, Version 2.0. See [LICENSE](./LICENSE) for the full terms and [NOTICE](./NOTICE) for required attribution and trademark notices.
