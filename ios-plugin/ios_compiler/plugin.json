@@ -1,0 +1,16 @@
+{
+    "name": "ios_compiler",
+    "description": "Hexio iOS Compiler Plugin",
+    "version": "1.0.0",
+    "type": "compiler",
+    "has_containers": true,
+    "containers": [
+        "ios-clang"
+    ],
+    "has_scripts": true,
+    "scripts": {
+        "ios-clang": "/usr/local/bin/ios-clang"
+    },
+    "installer": "install.sh",
+    "uninstaller": "uninstall.sh"
+}

@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Wrapper around our custom compiler containers.
+# If $(pwd) is under /tmp/build, we assume it's within the shared volume
+# and mount the volume instead of a bind mount.
+
+USER_ID=$(id -u)
+GROUP_ID=$(id -g)
+CWD=$(pwd)
+
+# Container name
+CONTAINER=darwin-clang
+
+docker run --rm \
+    -u "$USER_ID:$GROUP_ID" \
+    -v "$CWD:/opt/code" \
+    -w /opt/code \
+    "$CONTAINER" "--arch=arm64" "$@"

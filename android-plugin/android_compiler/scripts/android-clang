@@ -1,0 +1,17 @@
+#!/bin/bash
+
+USER_ID=$(id -u)
+GROUP_ID=$(id -g)
+CWD=$(pwd)
+
+CONTAINER_NAME="android-clang"
+
+# Default to arm64 if ANDROID_ARCH not set
+ARCH="${ANDROID_ARCH:-arm64}"
+
+docker run --rm \
+    -u "$USER_ID:$GROUP_ID" \
+    -v "$CWD:/opt/code" \
+    -w /opt/code \
+    -e ANDROID_ARCH="$ARCH" \
+    "$CONTAINER_NAME" "$@"

@@ -1,0 +1,19 @@
+{
+    "name": "android_compiler",
+    "description": "Hexio Android Compiler Plugin",
+    "version": "1.0.0",
+    "type": "compiler",
+    "has_containers": true,
+    "containers": [
+        "android-clang"
+    ],
+    "has_scripts": true,
+    "scripts": {
+        "android-clang": "/usr/local/bin/android-clang",
+        "android-clang-arm64": "/usr/local/bin/android-clang-arm64",
+        "android-clang-arm": "/usr/local/bin/android-clang-arm",
+        "android-clang-x64": "/usr/local/bin/android-clang-x64"
+    },
+    "installer": "install.sh",
+    "uninstaller": "uninstall.sh"
+}

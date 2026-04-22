@@ -1,0 +1,17 @@
+{
+    "name": "macos_compiler",
+    "description": "Hexio macOS Compiler Plugin",
+    "version": "1.0.0",
+    "type": "compiler",
+    "has_containers": true,
+    "containers": [
+        "darwin-clang"
+    ],
+    "has_scripts": true,
+    "scripts": {
+        "darwin-clang-x64": "/usr/local/bin/darwin-clang-x64",
+        "darwin-clang-arm64": "/usr/local/bin/darwin-clang-arm64"
+    },
+    "installer": "install.sh",
+    "uninstaller": "uninstall.sh"
+}
